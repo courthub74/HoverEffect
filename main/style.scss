@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    body {
+        background-color: rgb(19, 39, 39);
+        .container {
+            background-color: rgb(3, 3, 49);
+            main {
+                background-color: rgb(3, 43, 3);
+                .box1 {
+                    color: white;
+                }
+                .box2 {
+                    color: white;
+                }
+                .box3 {
+                    color: white;
+                }
+            }
+        }
+    }
+}

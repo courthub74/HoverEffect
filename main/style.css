@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+* body {
+  background-color: #132727;
+}
+
+* body .container {
+  background-color: #030331;
+}
+
+* body .container main {
+  background-color: #032b03;
+}
+
+* body .container main .box1 {
+  color: white;
+}
+
+* body .container main .box2 {
+  color: white;
+}
+
+* body .container main .box3 {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
