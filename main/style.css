@@ -1,28 +1,113 @@
 * {
   margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 * body {
-  background-color: #132727;
+  background-color: rgb(19, 39, 39);
 }
-
+* body small {
+  color: rgb(163, 163, 0);
+}
 * body .container {
-  background-color: #030331;
+  background-color: rgb(3, 3, 49);
+  position: relative;
 }
-
 * body .container main {
-  background-color: #032b03;
+  background-color: rgb(3, 43, 3);
+  height: 100vh;
 }
-
-* body .container main .box1 {
+* body .container main .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  height: 100vh;
+}
+* body .container main .boxes .box1 {
   color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 20vw;
+  height: 20vw;
 }
-
-* body .container main .box2 {
+* body .container main .boxes .box1 .boxcover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+* body .container main .boxes .box1 img {
+  width: 10vw;
+  height: 10vw;
+}
+* body .container main .boxes .box1 .boxcontent h1 {
+  font-size: 2vw;
+  text-align: center;
+}
+* body .container main .boxes .box1 .boxcontent .line {
+  border: 1px solid white;
+  margin: 0 0 3vh 0;
+}
+* body .container main .boxes .box1 .boxcontent img {
+  width: 5vw;
+  height: 5vw;
+  margin: 0 0 3vh 0;
+}
+* body .container main .boxes .box1 .boxcontent p {
+  font-size: 1vw;
+}
+* body .container main .boxes .box2 {
   color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 20vw;
+  height: 20vw;
 }
-
-* body .container main .box3 {
+* body .container main .boxes .box2 img {
+  width: 10vw;
+  height: 10vw;
+}
+* body .container main .boxes .box2 .boxcontent h1 {
+  font-size: 2vw;
+  text-align: center;
+}
+* body .container main .boxes .box2 .boxcontent .line {
+  border: 1px solid white;
+  margin: 0 0 3vh 0;
+}
+* body .container main .boxes .box2 .boxcontent img {
+  width: 5vw;
+  height: 5vw;
+  margin: 0 0 3vh 0;
+}
+* body .container main .boxes .box2 .boxcontent p {
+  font-size: 1vw;
+}
+* body .container main .boxes .box3 {
   color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 20vw;
+  height: 20vw;
 }
-/*# sourceMappingURL=style.css.map */
+* body .container main .boxes .box3 img {
+  width: 10vw;
+  height: 10vw;
+}
+* body .container main .boxes .box3 .boxcontent h1 {
+  font-size: 2vw;
+  text-align: center;
+}
+* body .container main .boxes .box3 .boxcontent .line {
+  border: 1px solid white;
+  margin: 0 0 3vh 0;
+}
+* body .container main .boxes .box3 .boxcontent img {
+  width: 5vw;
+  height: 5vw;
+  margin: 0 0 3vh 0;
+}
+* body .container main .boxes .box3 .boxcontent p {
+  font-size: 1vw;
+}/*# sourceMappingURL=style.css.map */
