@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap");
 * {
   margin: 0;
-  font-family: "Courier New", Courier, monospace;
+  padding: 0;
 }
-* body {
-  background-color: rgb(4, 61, 4);
+* body .container {
+  background-color: rgb(4, 77, 4);
   color: white;
+}
+* body .container img {
+  width: 12vw;
+  height: 12vw;
 }
 * body .container .boxes {
   display: flex;
@@ -17,40 +22,52 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  border: 1px solid white;
-  border-radius: 5px;
-  height: 20vw;
-  width: 20vw;
-  background-color: green;
-  cursor: pointer;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 25vw;
+  height: 27vw;
+  position: relative;
 }
 * body .container .boxes .box1 .cover1 {
+  font-size: 1.5vw;
+  font-family: "Julius Sans One", sans-serif;
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: darkgoldenrod;
-  margin: 10vh 0 0 0;
-}
-* body .container .boxes .box1 .cover1 .content1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
   height: 100%;
   width: 100%;
+  transition: 0.5s;
+  background-color: rgb(4, 77, 4);
+  border-radius: 10px;
+  cursor: pointer;
 }
-* body .container .boxes .box1 .cover1 .content1 img {
-  width: 7vw;
-  height: 7vw;
-}
-* body .container .boxes .box1 .cover1 .content1:hover {
-  transition: 1s;
-  opacity: 1;
-}
-* body .container .boxes .box1 .cover1 .cover1:hover {
-  transition: 1s;
+* body .container .boxes .box1 .cover1:hover {
+  transition: 0.5s;
   opacity: 0;
+}
+* body .container .boxes .box1 .content1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vw;
+}
+* body .container .boxes .box1 .content1 .logos {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+* body .container .boxes .box1 .content1 #bluelogo {
+  width: 5vw;
+  height: 5vw;
+}
+* body .container .boxes .box1 .content1 p {
+  font-size: 1.2vw;
+}
+* body .container .boxes .box1 .content1 a #github {
+  height: 3vw;
+  width: 3vw;
 }/*# sourceMappingURL=style.css.map */

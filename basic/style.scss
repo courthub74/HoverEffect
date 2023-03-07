@@ -1,57 +1,82 @@
-* {
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap');
+
+$thegreen: rgb(4, 77, 4);
+*{
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
     body {
-        background-color: rgb(4, 61, 4);
-        color: white;
         .container {
+            background-color: $thegreen;
+            color: white;
+            img {
+                width: 12vw;
+                height: 12vw;
+            }
+            // COLUMN OF BOXES
             .boxes {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: 5vw;
                 height: 100vh;
+                // EACH BOX
                 .box1 {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    align-items: center;
-                    border: 1px solid white;
-                    border-radius: 5px;
-                    height: 20vw;
-                    width: 20vw;
-                    background-color: green;
-                    cursor: pointer;
+                    text-align: center;
+                    border: 2px solid white;
+                    border-radius: 10px;
+                    width: 25vw;
+                    height: 27vw;
+                    position: relative;
+                    // the Cover of box 1
                     .cover1 {
+                        font-size: 1.5vw;
+                        font-family: 'Julius Sans One', sans-serif;
+                        position: absolute;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        background-color: darkgoldenrod;   
-                        margin: 10vh 0 0 0; 
-                        .content1 {
+                        height: 100%;
+                        width: 100%;
+                        transition: .5s;
+                        background-color: $thegreen;
+                        border-radius: 10px;
+                        cursor: pointer;
+                    }
+                    .cover1:hover {
+                        transition: .5s;
+                        opacity: 0;
+                    }
+                    // content of box 1
+                    .content1 {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 2vw;
+                        .logos {
                             display: flex;
-                            flex-direction: column;
                             justify-content: center;
-                            align-items: center;
-                            opacity: 0;
-                            height: 100%;
-                            width: 100%;
-                            img {
-                                width: 7vw;
-                                height: 7vw;
+                            gap: 2vw;
+                        }
+                        #bluelogo {
+                            width: 5vw;
+                            height: 5vw;
+                        }
+                        p {
+                            font-size: 1.2vw;
+                        }
+                        a {
+                            #github {
+                                height: 3vw;
+                                width: 3vw;
                             }
                         }
-                        .content1:hover {
-                            transition: 1s;
-                            opacity: 1;
-                        }        
-                        .cover1:hover {
-                            transition: 1s;
-                            opacity: 0;
-                        }            
                     }
-                   
                 }
             }
         }

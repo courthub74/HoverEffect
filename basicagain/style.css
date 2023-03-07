@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* body .container {
+  background-color: #080E2F;
+  color: white;
+}
+* body .container .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10vw;
+}
+* body .container .boxes .box1 {
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 20vw;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+* body .container .boxes .box1 a {
+  display: flex;
+  color: white;
+  font-size: 2vw;
+  position: absolute;
+  background-color: #080E2F;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+* body .container .boxes .box1 a:hover {
+  transition: 0.5s;
+  opacity: 0;
+}
+* body .container .boxes .box1 .content1 {
+  height: 100vh;
+}
+* body .container .boxes .box1 .cover2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080E2F;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+* body .container .boxes .box1 .cover2:hover {
+  transition: 0.5s;
+  opacity: 0;
+}
+* body .container .boxes .box1 .content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+* body .container .boxes .box1 .content2 img {
+  height: 8vw;
+  width: 8vw;
+}/*# sourceMappingURL=style.css.map */
