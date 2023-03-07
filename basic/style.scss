@@ -40,17 +40,20 @@ $thegreen: rgb(4, 77, 4);
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
+                        gap: 3vh;
                         height: 100%;
                         width: 100%;
-                        transition: .5s;
+                        // transition: .5s;
                         background-color: $thegreen;
                         border-radius: 10px;
                         cursor: pointer;
                     }
                     .cover1:hover {
-                        transition: .5s;
+                        transition: 1s;
                         opacity: 0;
                     }
+
+                }                    
                     // content of box 1
                     .content1 {
                         height: 100%;
@@ -62,23 +65,78 @@ $thegreen: rgb(4, 77, 4);
                             display: flex;
                             justify-content: center;
                             gap: 2vw;
-                        }
-                        #bluelogo {
-                            width: 5vw;
-                            height: 5vw;
+                            #bluelogo {
+                                width: 5vw;
+                                height: 5vw;
+                            }
                         }
                         p {
                             font-size: 1.2vw;
                         }
                         a {
+                            color: white;
+                            #github {
+                                height: 3vw;
+                                width: 3vw;
+                            }
+                        }
+                        // a::after {
+                        //     content: "("attr(href)")";
+                        //     cursor: pointer;
+                        // }
+                    }
+                    // cover of box 2
+                    .cover2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: $thegreen;
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        // cc image
+                        #createcollab {
+                            margin-left: 1.5vw;
+                            height: 3vw;
+                            width: 22vw;
+                        }
+                    }
+                    .cover2:hover {
+                        transition: 1s;
+                        opacity: 0;
+                    }
+                    // content of box 2
+                    .content2 {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        text-align: center;
+                        height: 100%;
+                        gap: 2vw;
+                        .logos {
+                            display: flex;
+                            justify-content: center;
+                            gap: 2vw;
+                            #yellowlogo {
+                                width: 5vw;
+                                height: 5vw;
+                            }
+                        }
+                        p {
+                            font-size: 1.2vw;
+                        }
+                        a {
+                            color: white;
                             #github {
                                 height: 3vw;
                                 width: 3vw;
                             }
                         }
                     }
+                    // cover of box 3
                 }
             }
         }
     }
-}

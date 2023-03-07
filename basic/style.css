@@ -37,37 +37,87 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 3vh;
   height: 100%;
   width: 100%;
-  transition: 0.5s;
   background-color: rgb(4, 77, 4);
   border-radius: 10px;
   cursor: pointer;
 }
 * body .container .boxes .box1 .cover1:hover {
-  transition: 0.5s;
+  transition: 1s;
   opacity: 0;
 }
-* body .container .boxes .box1 .content1 {
+* body .container .boxes .content1 {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 2vw;
 }
-* body .container .boxes .box1 .content1 .logos {
+* body .container .boxes .content1 .logos {
   display: flex;
   justify-content: center;
   gap: 2vw;
 }
-* body .container .boxes .box1 .content1 #bluelogo {
+* body .container .boxes .content1 .logos #bluelogo {
   width: 5vw;
   height: 5vw;
 }
-* body .container .boxes .box1 .content1 p {
+* body .container .boxes .content1 p {
   font-size: 1.2vw;
 }
-* body .container .boxes .box1 .content1 a #github {
+* body .container .boxes .content1 a {
+  color: white;
+}
+* body .container .boxes .content1 a #github {
+  height: 3vw;
+  width: 3vw;
+}
+* body .container .boxes .cover2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(4, 77, 4);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+* body .container .boxes .cover2 #createcollab {
+  margin-left: 1.5vw;
+  height: 3vw;
+  width: 22vw;
+}
+* body .container .boxes .cover2:hover {
+  transition: 1s;
+  opacity: 0;
+}
+* body .container .boxes .content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  gap: 2vw;
+}
+* body .container .boxes .content2 .logos {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+* body .container .boxes .content2 .logos #yellowlogo {
+  width: 5vw;
+  height: 5vw;
+}
+* body .container .boxes .content2 p {
+  font-size: 1.2vw;
+}
+* body .container .boxes .content2 a {
+  color: white;
+}
+* body .container .boxes .content2 a #github {
   height: 3vw;
   width: 3vw;
 }/*# sourceMappingURL=style.css.map */
