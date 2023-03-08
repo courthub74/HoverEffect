@@ -120,4 +120,50 @@
 * body .container .boxes .content2 a #github {
   height: 3vw;
   width: 3vw;
+}
+* body .container .boxes .cover3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgb(4, 77, 4);
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+* body .container .boxes .cover3 #msy {
+  height: 20vw;
+  width: 20vw;
+}
+* body .container .boxes .cover3:hover {
+  transition: 1s;
+  opacity: 0;
+}
+* body .container .boxes .content3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  gap: 2vw;
+}
+* body .container .boxes .content3 .logos {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+* body .container .boxes .content3 .logos #redlogo {
+  width: 5vw;
+  height: 5vw;
+}
+* body .container .boxes .content3 p {
+  font-size: 1.2vw;
+}
+* body .container .boxes .content3 a {
+  color: white;
+}
+* body .container .boxes .content3 a #github {
+  height: 3vw;
+  width: 3vw;
 }/*# sourceMappingURL=style.css.map */
